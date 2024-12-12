@@ -1,0 +1,20 @@
+
+Car Rental Management System
+
+--------------------------------------------
+Login Credentials
+
+Admin Login:
+    Email Id: admin@gmail.com  
+    Password: 123456
+
+User Login (Demo) :
+    Email Id: user@gmail.com
+    Password: 123456
+--------------------------------------------
+
+Change the Database  from config folder
+
+    1. Change the Database name in the config/dbcon.php file.
+    
+--------------------------------------------

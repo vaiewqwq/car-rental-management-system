@@ -1,0 +1,313 @@
+html,body{
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+.top-nav-link{
+    color: #fff;
+    font-size: 15px;
+}
+label{
+    font-size: 14px;
+}
+.form-control{
+    font-size: 14px !important;
+}
+.form-control:focus {
+    border-color: #000;
+    outline: 0;
+    box-shadow: none;
+}
+
+.form-select{
+    font-size: 14px !important;
+}
+.form-select:focus {
+    border-color: #000;
+    outline: 0;
+    box-shadow: none;
+}
+
+.section{
+    padding-top: 54px;
+    padding-bottom: 54px;
+}
+.underline{
+    height: 2px;
+    width: 80px;
+    background-color: red;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+.banner{
+    background-image: url(../images/banner.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: rgb(0 0 0 / 30%) 0px 0px 0px 500px inset;
+    padding: 100px 0px;
+}
+.banner-heading{
+    font-size: 30px;
+    color: #fff;
+}
+
+.car-card{
+    border-radius: 16px;
+    border: 1px solid lightgray;
+    border-top: none;
+    background-color: #fff;
+}
+.car-card-box{
+    height: 160px;
+    width: 100%;
+    max-height: 160px;
+    min-height: 160px;
+}
+.car-card img{
+    background: linear-gradient(gray, white 25%);
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    height: 100%;
+    width: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+}
+.car-card-title {
+    font-size: 16px;
+    font-weight: 600;
+    color: #1f1f1f;
+    margin-bottom: 0px;
+}
+.car-card .card-body{
+    padding: 14px;
+    border-top: 1px solid #e5e5e5;
+}
+.fs-10{
+    font-size: 10px;
+}
+.fs-11{
+    font-size: 11px;
+}
+.fs-12{
+    font-size: 12px;
+}
+.fs-13{
+    font-size: 13px;
+}
+.fs-14{
+    font-size: 14px;
+}
+
+.fs-16{
+    font-size: 16px !important;
+}
+.bg-btn{
+    background-color: #e09f2d !important;
+}
+.bg-gray{
+    background: #f5f5f5 !important;
+}
+.title-sm{
+    font-weight: normal;
+    line-height: 1.33;
+    letter-spacing: .4px;
+    color: #7a7777;
+}
+.title1{
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1.33;
+    letter-spacing: .16px;
+    color: #1f1f1f;
+    margin-bottom: 0px;
+}
+.nav-link {
+    padding: 16px 12px !important;
+    font-weight: 600;
+    color: #000 !important;
+}
+.section{
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.main-heading{
+    font-size: 24px;
+    font-weight: 800;
+    color: #e09f2d;
+}
+
+.bg-car1 {
+    background-image: url(../images/car-bg-1.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.footer-bg{
+    background-color: #383838;
+    padding-top: 36px;
+    padding-bottom: 36px;
+    color: #fff;
+}
+.footer-bg h4{
+    font-size: 22px;
+}
+.footer-bg a{
+    color: #fff;
+}
+
+
+.testi-card{
+    background-color: #ebf8eb;
+    padding: 20px 30px;
+}
+.testi-para{
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 1.43;
+    letter-spacing: .24px;
+    color: #424141;
+    font-style: italic;
+    text-align: center;
+}
+
+.owl-theme .owl-dots .owl-dot span{
+    margin: 5px 0px !important;
+}
+.owl-theme .owl-dots .owl-dot{
+    padding: 0px 4px;
+}
+.card-header{
+    background-color: #e09f2d !important;
+    color: #fff;
+}
+.bg-web{
+    background-color: #e09f2d;
+}
+.btn-web{
+    background-color: #e09f2d;
+    color: #fff;
+    font-weight: 700;
+    box-shadow: 0 1px 5px 0 rgb(0 0 0 / 20%), 0 3px 1px -2px rgb(0 0 0 / 12%), 0 2px 2px 0 rgb(0 0 0 / 14%);
+}
+.btn-web:hover{
+    background-color: #e7b051;
+    color: #fff;
+}
+.carousel-img-box{
+    height: 260px;
+    width: 100%;
+    max-height: 260px;
+    min-height: 260px;
+}
+.carousel-img-box img{
+    background: linear-gradient(gray, white 25%);
+    width: 500px !important;
+    height: 100%;
+    margin: auto;
+    -o-object-fit: cover;
+    object-fit: cover;
+}
+.owl-nav .owl-prev {
+    position: absolute;
+    top: 46%;
+    left: 2%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    font-size: 44px !important;
+    -webkit-transition: 0.7s;
+    transition: 0.7s;
+    width: 52px;
+    height: 52px;
+    border-radius: 50px !important;
+    border: 1px solid #ddd;
+    line-height: 12px !important;
+    background-color: #000 !important;
+    color: #fff !important;
+    box-shadow: 0 0.125rem 0.25rem rgb(0 0 0 / 8%);
+    outline: none !important;
+}
+.owl-nav .owl-prev:hover {
+    color: #fff !important;
+    background-color: #e09f2d !important;
+}
+.owl-nav .owl-next {
+    position: absolute;
+    top: 46%;
+    right: 2%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    color: #444444 !important;
+    font-size: 44px !important;
+    -webkit-transition: 0.7s;
+    transition: 0.7s;
+    width: 52px;
+    height: 52px;
+    line-height: 12px !important;
+    border-radius: 50px !important;
+    border: 1px solid #ddd;
+    background-color: #000 !important;
+    color: #fff !important;
+    box-shadow: 0 0.125rem 0.25rem rgb(0 0 0 / 8%);
+    outline: none !important;
+}
+.owl-nav .owl-next:hover {
+    color: #fff !important;
+    background-color: #e09f2d !important;
+}
+.owl-nav i{
+    font-size: 24px;
+}
+
+.certi-navbottom {
+    z-index: 99;
+    background-color: #1971ad;
+}
+.sticky2 {
+    position: sticky!important;
+    top: 136px;
+}
+.marqueeTag{
+    border-bottom: 2px dashed #000;
+    margin-top: -8px;
+}
+.marqueCarimg{
+    width: 54px !important;
+    margin-top: -3px;
+}
+@media (min-width: 768px) {
+    .collapse.dont-collapse-sm {
+      display: block;
+      height: auto !important;
+      visibility: visible;
+    }
+}
+
+@media only screen and (max-width: 680px) {
+   
+    .nav-link{
+        padding-top: 03px !important;
+        padding-bottom: 03px !important;
+    }
+	.nav-item{
+        padding: 4px 0px;
+        border-bottom: 1px solid #ddd;
+    }
+	.navbar .dropdown-menu .dropdown-item{
+        padding: 5px 11px !important;
+        font-size: 13px !important;
+    }
+    .underline{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+}
+
